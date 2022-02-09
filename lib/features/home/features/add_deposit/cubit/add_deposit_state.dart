@@ -10,5 +10,5 @@ class AddDepositState extends Equatable {
   final int amount;
 
   @override
-  List<Object> get props => [amount];
+  List<Object?> get props => [amount, date];
 }
